@@ -6,19 +6,16 @@
   "welcome_text": "We are a faith-centered church in Easley, South Carolina. Come worship, pray, and grow with us as we seek to share God’s Word and encourage our community.",
   "about_title": "A place to worship, grow, and belong",
   "about_text": "Our ministry is dedicated to biblical teaching, prayer, fellowship, and supporting families. We look forward to welcoming you.",
-  "pastor_name": "[Add pastor or church leader’s name]",
-  "street_address": "[Add church street address]",
+  "pastor_name": "Apostle George and Pastor Linda Thompkins",
+  "street_address": "1097 S Pendleton St, Suite C, Easley, S.C., 29642",
   "phone": "[Add phone number]",
-  "email": "[Add church email]",
-  "sunday_service": "[Add Sunday worship time]",
-  "bible_study": "[Add Bible study day and time]",
-  "prayer_time_1": "[Add first prayer day and time]",
-  "prayer_time_2": "[Add second prayer day and time]",
-  "livestream_url": "",
+  "email": "twodm.ministry@gmail.com",
+  "sunday_service": "Sunday at 10:00 a.m.",
+  "bible_study": "Tuesday nights at 7:00 p.m. Join us on Google Meet (unv-veec-wnb)",
+  "prayer_time_1": "Intecessory Prayer Sunday mornings at 9:30 a.m. to 10:00 a.m.",
+  "prayer_time_2": "Thursday nights at 7:00 p.m. Join us on Google Meet (ufk-nqmf-rgr)",
   "livestream_note": "Watch our worship services online. Add your YouTube or Facebook livestream URL in the editor.",
-  "giving_url": "",
   "giving_note": "Your generosity helps support worship, ministry, and community outreach. A secure giving provider link will be added here.",
-  "prayer_form_url": "",
   "prayer_note": "We would be honored to pray with you. A private prayer request form will be added here.",
   "events": [
     {
@@ -29,15 +26,12 @@
   ],
   "gallery": [
     {
-      "image": "",
       "caption": "Church family and worship photos coming soon"
     },
     {
-      "image": "",
       "caption": "Ministry and community moments coming soon"
     },
     {
-      "image": "",
       "caption": "Special services and events coming soon"
     }
   ]
