@@ -1,0 +1,108 @@
+# Pages CMS configuration — managed with GitHub authentication.
+media:
+  input: assets/uploads
+  output: /assets/uploads
+  rename: safe
+  extensions: [png, jpg, jpeg, webp]
+content:
+  - name: church
+    label: Church Website Content
+    type: file
+    path: content/site.json
+    format: json
+    fields:
+      - name: church_name
+        label: Church name
+        type: string
+        required: true
+      - name: location
+        label: City and state
+        type: string
+      - name: tagline
+        label: Tagline
+        type: string
+      - name: welcome_title
+        label: Welcome heading
+        type: string
+      - name: welcome_text
+        label: Welcome message
+        type: text
+      - name: about_title
+        label: About heading
+        type: string
+      - name: about_text
+        label: About description
+        type: text
+      - name: pastor_name
+        label: Pastor / leadership name
+        type: string
+      - name: street_address
+        label: Street address
+        type: string
+      - name: phone
+        label: Phone number
+        type: string
+      - name: email
+        label: Contact email
+        type: string
+      - name: sunday_service
+        label: Sunday worship time
+        type: string
+      - name: bible_study
+        label: Bible study time
+        type: string
+      - name: prayer_time_1
+        label: Prayer time 1
+        type: string
+      - name: prayer_time_2
+        label: Prayer time 2
+        type: string
+      - name: livestream_url
+        label: Livestream URL (YouTube / Facebook)
+        type: string
+      - name: livestream_note
+        label: Livestream description
+        type: text
+      - name: giving_url
+        label: Secure giving provider URL
+        type: string
+      - name: giving_note
+        label: Giving description
+        type: text
+      - name: prayer_form_url
+        label: Secure prayer request form URL
+        type: string
+      - name: prayer_note
+        label: Prayer request description
+        type: text
+      - name: events
+        label: Upcoming events
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{title}"
+        fields:
+          - name: title
+            label: Event title
+            type: string
+          - name: date
+            label: Date and time (plain text)
+            type: string
+          - name: description
+            label: Event description
+            type: text
+      - name: gallery
+        label: Photo gallery
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{caption}"
+        fields:
+          - name: image
+            label: Photograph
+            type: image
+          - name: caption
+            label: Caption
+            type: string
