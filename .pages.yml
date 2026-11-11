@@ -1,7 +1,7 @@
 # Pages CMS configuration — managed with GitHub authentication.
 media:
-  input: assets/uploads
-  output: /assets/uploads
+  input: assets/
+  output: /assets/
   rename: safe
   extensions: [png, jpg, jpeg, webp]
 content:
